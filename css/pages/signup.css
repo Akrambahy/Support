@@ -1,0 +1,115 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+              font-family: 'Poppins', sans-serif;
+             }
+            body {
+        background-color: var(--bg-darker);
+    color: var(--text-main);
+    font-family: 'Inter', sans-serif;
+                 display: flex;
+                height: 100vh;
+
+             }
+            
+             .container {
+              display: flex;
+      width: 100%;
+      padding: 100px;
+      gap: 0px;
+             }
+             .left
+             {
+              flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+             }
+              .step {
+      color: #25d064;
+      margin-bottom: 20px;
+    }
+     h1 {
+      font-size: 60px;
+      line-height: 1.2;
+      margin-bottom: 20px;
+    }
+    h1 span 
+    {
+       color: #60a5fa;
+    }
+    .bla {
+      color: #9ca3af;
+      max-width: 500px;
+      margin-bottom: 40px;
+    }
+     .cards {
+      display: flex;
+      gap: 20px;
+    }
+    .card1{
+      background: #0f172a;
+      padding: 20px;
+      border-radius: 15px;
+      width: 200px;
+    }
+    .card2{
+      background: #0f172a;
+      padding: 20px;
+      border-radius: 15px;
+      width: 200px;
+    }
+    .card1 h3{
+       margin-bottom: 10px;
+    }
+    .card2 h3{
+       margin-bottom: 10px;
+    }
+     .right {
+      width: 400px;
+      background: #0f172a;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    }
+    .right h2{
+      margin-bottom: 10px;
+    }
+    .right p{
+        color: #9ca3af;
+      margin-bottom: 20px;
+    }
+    
+    .enter{
+        margin-bottom: 15px;
+    }
+    .enter input {
+      width: 100%;
+      padding: 12px;
+      border-radius: 10px;
+      border: none;
+      background: #1e293b;
+      color: #fff;
+    }
+    .button
+    {
+       width: 100%;
+      padding: 14px;
+      border: none;
+      border-radius: 20px;
+      background: linear-gradient(to right, #60a5fa, #3b82f6);
+      color: white;
+      font-weight: 600;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    .haveaccount {
+       text-align: center;
+      margin-top: 15px;
+      color: #9ca3af;
+    }
+    .haveaccount a{
+       color: #60a5fa;
+      text-decoration: none;
+    }

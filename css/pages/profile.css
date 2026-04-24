@@ -6,7 +6,7 @@ body {
     color: var(--text-main);
     font-family: 'Inter', sans-serif;
 }
-
+/* 
 .dashboard-container {
     display: grid;
     grid-template-columns: 260px 1fr;
@@ -34,7 +34,7 @@ body {
     background: rgba(59, 130, 246, 0.1);
     color: var(--accent-blue);
     border-right: 3px solid var(--accent-blue);
-}
+} */
 
 .main-content { padding: 40px 5%; overflow-y: auto; }
 

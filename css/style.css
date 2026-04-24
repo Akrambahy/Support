@@ -10,8 +10,8 @@
 }
 
 body {
-    background-color: var(--bg-color);
-    color: var(--text-primary);
+    background-color: var(--bg-darker);
+    color: var(--text-main);
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
     overflow-x: hidden;
@@ -258,4 +258,36 @@ footer {
 
 section {
     margin-bottom: 60px;
+}
+
+
+/* Main Sid-bar */
+
+.dashboard-container {
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    min-height: 100vh;
+}
+
+.sidebar {
+    background: var(--bg-sidebar);
+    border-right: 1px solid var(--border);
+    padding: 40px 20px;
+}
+
+.sidebar-header h2 { color: var(--accent-blue); margin-bottom: 5px; }
+.sidebar-header span { font-size: 0.8rem; color: var(--text-dim); }
+
+.sidebar-nav { margin-top: 50px; display: flex; flex-direction: column; gap: 10px; }
+.sidebar-nav a {
+    text-decoration: none;
+    color: var(--text-dim);
+    padding: 12px 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.sidebar-nav a:hover {
+    background: rgba(59, 130, 246, 0.1);
+    color: var(--accent-blue);
+    border-right: 3px solid var(--accent-blue);
 }

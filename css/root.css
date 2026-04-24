@@ -6,7 +6,7 @@
     --text-primary: #ffffff;
     --text-secondary: #94a3b8;
     --gradient-blue: linear-gradient(135deg, #3b82f6 0%, #2dd4bf 100%);
-        --bg-darker: #05070a;
+    --bg-darker: #05070a;
     --bg-sidebar: #0a0c1a;
     --accent-blue: #3b82f6;
     --accent-green: #10b981;
@@ -14,4 +14,11 @@
     --text-dim: #94a3b8;
     --glass: rgba(255, 255, 255, 0.03);
     --border: rgba(255, 255, 255, 0.08);
+    --bg-color: #020f36;
+    --card-bg: #0b193d;
+    --border-color: rgba(255, 255, 255, 0.1);
+    --primary-blue: #70a1ff;
+    --text-muted: #8892b0;
 }
+
+
