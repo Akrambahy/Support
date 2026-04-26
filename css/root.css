@@ -19,6 +19,11 @@
     --border-color: rgba(255, 255, 255, 0.1);
     --primary-blue: #70a1ff;
     --text-muted: #8892b0;
+    --bg-dark: #070b13;
+    --sidebar-bg: #0b111e;
+    --text-primary: #ffffff;
+    --text-secondary: #7e8b9b;
+    --gold: #fbbf24;
+    --silver: #94a3b8;
+    --bronze: #d97706;
 }
-
-
